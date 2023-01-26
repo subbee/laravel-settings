@@ -16,7 +16,7 @@
 1. Install package
 
     ```bash
-    composer require unisharp/laravel-settings
+    composer require subbee/laravel-settings
     ```
 
 1. Edit config/app.php (Skip this step if you are using laravel 5.5+)
@@ -24,13 +24,13 @@
     service provider:
 
     ```php
-    Unisharp\Setting\SettingServiceProvider::class,
+    subbee\Setting\SettingServiceProvider::class,
     ```
 
     class aliases:
 
     ```php
-    'Setting' => Unisharp\Setting\SettingFacade::class,
+    'Setting' => Subbee\Setting\SettingFacade::class,
     ```
 
 1. Create settings table
