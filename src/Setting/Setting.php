@@ -3,7 +3,7 @@
 namespace Unisharp\Setting;
 
 use Illuminate\Contracts\Cache\Factory as CacheContract;
-use Illuminate\Support\Arr
+use Illuminate\Support\Arr;
 
 class Setting
 {
