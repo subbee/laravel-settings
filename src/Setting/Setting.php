@@ -5,6 +5,7 @@ namespace Unisharp\Setting;
 use Illuminate\Contracts\Cache\Factory as CacheContract;
 use Illuminate\Support\Arr;
 
+
 class Setting
 {
     protected $lang = null;
